@@ -1,0 +1,4524 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 8vh;
+    width: 100%;
+    background-color: #F6F6F4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+
+.headermenu {
+    display: none;
+}
+
+.shopbag {
+    display: none;
+}
+
+.options1 ul {
+    display: flex;
+    gap: 2.2rem;
+    list-style-type: none;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+}
+
+.options1 ul li {
+    transition: all ease 0.1s;
+    padding: 0.1rem;
+}
+
+.options2 ul li {
+    transition: all ease 0.1s;
+    padding: 0.1rem;
+}
+
+.options2 ul {
+    display: flex;
+    gap: 2.2rem;
+    list-style-type: none;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+
+.logo img {
+    padding-top: 0.5rem;
+    height: 5.5vh;
+}
+
+.options1 ul li:hover {
+    border-bottom: 3px solid black;
+}
+
+.options2 ul li:hover {
+    border-bottom: 3px solid black;
+}
+
+.herosection {
+    height: 95vh;
+    width: 100%;
+    background-color: #F6F6F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+}
+
+.heroimg {
+    height: 85vh;
+    width: 97%;
+    background-image: url(herosectionimg.webp);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 22rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 1px 1px 5px grey;
+    filter: contrast(1) saturate(1.2);
+}
+
+.heroimg h1 {
+    font-family: 'Didot';
+    font-size: 4rem;
+    font-weight: 100;
+    padding-bottom: 1rem;
+    text-shadow: 2px 2px 2px black;
+}
+
+.heroimg h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    text-shadow: 2px 2px 2px black;
+}
+
+.heroimg button {
+    height: 3rem;
+    width: 10%;
+    font-size: 1rem;
+    background-color: #E2DCD2;
+    border: none;
+    cursor: pointer;
+}
+
+.heroimg button:hover {
+    background-color: rgba(0, 0, 0, 0.741);
+    color: white;
+}
+
+.section2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #F6F6F4;
+}
+
+.sec2div1 {
+    height: 100vh;
+    width: 48%;
+    background-image: url(sec2div1img.webp);
+    background-size: cover;
+    background-position: center;
+    filter: contrast(1) saturate(1.1);
+}
+
+.sec2div2 {
+    height: 100vh;
+    width: 49%;
+    background-color: #EFECE6;
+    padding: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.sec2div2 h1 {
+    font-size: 3.3rem;
+    font-weight: 100;
+    padding-bottom: 2rem;
+}
+
+.sec2div2 h2 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    font-family: cursive;
+    text-align: end;
+    padding-bottom: 3rem;
+}
+
+.sec2div2 p {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 2rem;
+}
+
+.sec2div2 ul {
+    font-size: 1rem;
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 3rem;
+}
+
+.sec2div2 i {
+    font-size: 1.5rem;
+    font-family: cursive;
+    vertical-align: -0.2rem;
+}
+
+.sec2div2 button {
+    height: 3rem;
+    width: 18rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: lighter;
+    background-color: #E2DCD2;
+    cursor: pointer;
+}
+
+.sec2div2 button:hover {
+    background-color: rgba(0, 0, 0, 0.873);
+    color: white;
+}
+
+.section3 {
+    height: 130vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #F6F6F4;
+}
+
+.sec3divdata {
+    height: 35%;
+    width: 50%;
+    text-align: center;
+}
+
+.sec3divdata h1 {
+    font-size: 3.5rem;
+    font-weight: 100;
+    padding-bottom: 1rem;
+}
+
+.sec3divdata h1 span {
+    font-family: cursive;
+    font-weight: 100;
+    font-size: 2.8rem;
+    color: #7a6f5c;
+}
+
+.sec3divdata p {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    line-height: 1.4;
+    padding-bottom: 2rem;
+}
+
+.sec3divdata button {
+    height: 3rem;
+    width: 12rem;
+    background-color: #E2DCD2;
+    border: none;
+    font-size: 1rem;
+    color: black;
+}
+
+.sec3divdata button:hover {
+    background-color: rgba(0, 0, 0, 0.741);
+    color: white;
+    cursor: pointer;
+}
+
+.sec3img1 {
+    height: 35vh;
+    width: 30vh;
+    position: absolute;
+    top: 2rem;
+    left: 25rem;
+    background-image: url(sec3img1.webp);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 3px 10px grey;
+    transition: all ease-in 0.4s;
+    filter: contrast(1) saturate(1.2);
+}
+
+.sec3img2 {
+    height: 45vh;
+    width: 40vh;
+    position: absolute;
+    top: 18rem;
+    right: 3rem;
+    background-image: url(sec3img2.webp);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 3px 10px grey;
+    transition: all ease-in 0.4s;
+    filter: contrast(1) saturate(1.1);
+}
+
+.sec3img3 {
+    height: 40vh;
+    width: 30vh;
+    position: absolute;
+    top: 22rem;
+    left: 2rem;
+    background-image: url(sec3img4.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 3px 10px grey;
+    transition: all ease-in 0.4s;
+    filter: contrast(1) saturate(1.2);
+}
+
+.sec3img4 {
+    height: 35vh;
+    width: 30vh;
+    position: absolute;
+    top: 40rem;
+    left: 25rem;
+    background-image: url(sec3img3.webp);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 3px 10px grey;
+    transition: all ease-in 0.4s;
+    filter: contrast(1) saturate(1.5);
+}
+
+.sec3img5 {
+    height: 30vh;
+    width: 30vh;
+    position: absolute;
+    top: 40rem;
+    left: 45rem;
+    background-image: url(sec3img5.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 3px 10px grey;
+    transition: all ease-in 0.4s;
+    filter: contrast(1) saturate(1.3);
+}
+
+.sec3img6 {
+    height: 30vh;
+    width: 25vh;
+    position: absolute;
+    top: 2rem;
+    left: 50rem;
+    background-image: url(sec3img7.avif);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 3px 10px grey;
+    transition: all ease-in 0.4s;
+    filter: contrast(1) saturate(1.3);
+}
+
+.sec3hover div:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.section4 {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #F6F6F4;
+
+}
+
+.sec4div {
+    height: 80vh;
+    width: 97%;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-top: 7rem;
+    background-color: #E4E1DC;
+}
+
+.sec4div p {
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.3;
+    color: #5d5850;
+}
+
+.sec4logos {
+    display: flex;
+    gap: 3rem;
+    padding-top: 8rem;
+}
+
+.sec4logos img {
+    height: 1.1rem;
+    cursor: pointer;
+}
+
+.section5 {
+    height: 110vh;
+    width: 100%;
+    background-color: #F6F6F4;
+}
+
+.sec5updiv {
+    height: 20%;
+    width: 97%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-bottom: 1rem;
+    background-color: #F6F6F4;
+}
+
+.sec5option ul {
+    display: flex;
+    gap: 2.5rem;
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec5option .sec5featured {
+    font-size: 4rem;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sec5updiv button {
+    height: 3.3rem;
+    width: 8.5rem;
+    border: none;
+    font-size: 1rem;
+    background-color: #E4E1DC;
+}
+
+.sec5updiv button:hover {
+    background-color: #0a0804;
+    color: white;
+}
+
+.sec5lodiv {
+    height: 75%;
+    width: 97%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+.sec5lodiv div {
+    height: 100%;
+    width: 33.33%;
+}
+
+.sec5lodiv1 {
+    background-image: url(sec5img1.1.webp);
+    background-size: cover;
+    background-position: center;
+    background-color: #EFECE6;
+    padding-top: 30rem;
+    transition: all ease-in 0.2s;
+    overflow: hidden;
+    filter: contrast(1) saturate(1.1);
+}
+
+.sec5lodiv1 h4 {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding-bottom: 0.5rem;
+}
+
+.sec5lodiv1 .sec5price {
+    border: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec5lodiv1 .sec5hoverdiv {
+    height: 8vh;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    transition: all ease-in 0.3s;
+}
+
+.sec5lodiv1:hover {
+    background-image: url(secfaceimg1.webp);
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    cursor: pointer;
+
+}
+
+.sec5lodiv1:hover .sec5hoverdiv {
+    transform: translateY(-5rem);
+}
+
+.sec5lodiv2 {
+    background-image: url(sec5img2.webp);
+    background-size: cover;
+    background-position: center;
+    background-color: #EFECE6;
+    padding-top: 30rem;
+    transition: all ease-in 0.2s;
+    overflow: hidden;
+    filter: contrast(1) saturate(1.1);
+}
+
+.sec5lodiv2 h4 {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding-bottom: 0.5rem;
+}
+
+.sec5lodiv2 .sec5price {
+    border: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec5lodiv2 .sec5hoverdiv {
+    height: 8vh;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    transition: all ease-in 0.3s;
+}
+
+.sec5lodiv2:hover {
+    background-image: url(sec5faceimg2.webp);
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    cursor: pointer;
+
+}
+
+.sec5lodiv2:hover .sec5hoverdiv {
+    transform: translateY(-5rem);
+}
+
+.sec5lodiv3 {
+    background-image: url(sec5img3.webp);
+    background-size: cover;
+    background-position: center;
+    background-color: #EFECE6;
+    padding-top: 30rem;
+    transition: all ease-in 0.2s;
+    overflow: hidden;
+    filter: contrast(1) saturate(1.1);
+}
+
+.sec5lodiv3 h4 {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding-bottom: 0.5rem;
+}
+
+.sec5lodiv3 .sec5price {
+    border: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec5lodiv3 .sec5hoverdiv {
+    height: 8vh;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    transition: all ease-in 0.3s;
+}
+
+.sec5lodiv3:hover {
+    background-image: url(sec5faceimg3.webp);
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    cursor: pointer;
+
+}
+
+.sec5lodiv3:hover .sec5hoverdiv {
+    transform: translateY(-5rem);
+}
+
+.section6 {
+    height: 90vh;
+    width: 100%;
+    background-color: #F6F6F4;
+}
+
+.sec6updiv {
+    height: 20%;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F4;
+}
+
+.sec6updiv p {
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #181715;
+    text-shadow: 3px 1px 1px rgb(215, 212, 212);
+    font-family: cursive;
+}
+
+.sec6lodiv {
+    height: 80%;
+    width: 97%;
+    background-color: #F6F6F4;
+    margin: auto;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+
+.sliderr {
+    height: 100%;
+    width: 40%;
+    display: inline-flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sliderr .sec6text {
+    height: 100%;
+    width: 50%;
+    background-color: #5D3529;
+    color: white;
+    padding-top: 4rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    white-space: wrap;
+}
+
+.sec6text p,
+h5 {
+    font-size: 1rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-weight: 100;
+}
+
+.sliderr .sec6img {
+    height: 100%;
+    width: 50%;
+    background-image: url(sec6img1.1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.sliderr .img {
+    position: absolute;
+    top: 10rem;
+    left: 8rem;
+}
+
+.sliderr .sec6img2 {
+    height: 100%;
+    width: 50%;
+    background-image: url(sec6img2.2.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.sliderr .sec6img3 {
+    height: 100%;
+    width: 50%;
+    background-image: url(sec6img3.3.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.sliderr .sec6img4 {
+    height: 100%;
+    width: 50%;
+    background-image: url(sec6img4.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.sliderr .sec6img5 {
+    height: 100%;
+    width: 50%;
+    background-image: url(sec6img5.5.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.sliderr .sec6img6 {
+    height: 100%;
+    width: 50%;
+    background-image: url(sec6img6.6.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.sliderr .sec6img7 {
+    height: 100%;
+    width: 50%;
+    background-image: url(sec6img7.7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sliderr {
+    display: inline-flex;
+    animation-name: slide;
+    animation-duration: 59s;
+    margin-right: 0px;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    will-change: transform;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(calc(-1160%));
+    }
+}
+
+.section7 {
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    background-color: #F6F6F4;
+}
+
+.section7 div {
+    height: 80%;
+    width: 25%;
+    margin-left: 0.2rem;
+    cursor: pointer;
+}
+
+.sec7div1 p {
+    font-size: 3rem;
+    font-family: cursive;
+    font-weight: 100;
+}
+
+.sec7div1 p1 {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.sec7div2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 0.5rem;
+    line-height: 1.5;
+    padding-right: 1rem;
+}
+
+.sec7div2 button {
+    height: 2.8rem;
+    width: 9rem;
+    border: none;
+    color: black;
+    background-color: #E2DCD2;
+    margin-top: 1rem;
+    font-size: 1rem;
+    display: none;
+    transition: all ease 9s;
+}
+
+.sec7div2 .sec7img1 {
+    height: 65%;
+    width: 100%;
+    margin-left: 0;
+    background-image: url(sec7img1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.sec7div3 p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 0.5rem;
+    line-height: 1.5;
+    padding-right: 1rem;
+}
+
+.sec7div3 button {
+    height: 2.8rem;
+    width: 9rem;
+    border: none;
+    color: black;
+    background-color: #E2DCD2;
+    margin-top: 1rem;
+    font-size: 1rem;
+    display: none;
+    transition: all ease 9s;
+}
+
+.sec7div3 .sec7img2 {
+    height: 65%;
+    width: 100%;
+    margin-left: 0;
+    background-image: url(sec7img2.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.sec7div4 p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 0.5rem;
+    line-height: 1.5;
+    padding-right: 1rem;
+}
+
+.sec7div4 button {
+    height: 2.8rem;
+    width: 9rem;
+    border: none;
+    color: black;
+    background-color: #E2DCD2;
+    margin-top: 1rem;
+    font-size: 1rem;
+    display: none;
+    transition: all ease 9s;
+}
+
+.sec7div4 .sec7img3 {
+    height: 65%;
+    width: 100%;
+    margin-left: 0;
+    background-image: url(sec7img3.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.sec7div2:hover button {
+    display: block;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.sec7div3:hover button {
+    display: block;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.sec7div4:hover button {
+    display: block;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.section8{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #F6F6F4;
+}
+.sec8imgdiv{
+    height: 90vh;
+    width: 97%;
+    background-image: url(sec8img.webp);
+    background-position: center;
+    background-size: cover;
+    filter: contrast(1) saturate(1.2);
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 50rem;
+}
+.sec8imgdiv h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.2rem;
+    font-weight: 100;
+    color: grey;
+    padding-bottom: 1rem;
+}
+.sec8imgdiv p{
+    font-size: 1.8rem;
+    font-weight: 100;
+    padding-bottom: 2rem;
+    line-height: 1.4;
+}
+.sec8imgdiv button{
+    height: 3.5rem;
+    width: 12rem;
+    border: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    background-color: white;
+}
+.sec8imgdiv button:hover{
+    background-color: black;
+    color: white;
+}
+
+.section9{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: #F6F6F4;
+}
+.sec9div1{
+    height: 130vh;
+    width: 35%;
+    text-align: end;
+    padding-top: 42rem;
+    padding-right: 2rem;
+    
+}
+
+.sec9div1 h1{
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    padding-bottom: 0.5rem;
+}
+.sec9div1 p{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+}
+.sec9div2{
+    height: 130vh;
+    width: 30%;
+    text-align: center;
+}
+.sec9div2 h1{
+    font-size: 4rem;
+    font-weight: 100;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.sec9div2 h2{
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: cursive;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.sec9innerdiv2{
+    height: 100vh;
+    width: 100%;
+    border: 2px solid #F6F6F4;
+    background-image: url(sec9img);
+    background-size: cover;
+    background-position: center;
+    filter: contrast(1) saturate(1.);
+}
+.sec9innerdiv2 .sec9imgdiv1{
+    height: 45%;
+    width: 60%;
+    margin-top: 18rem;
+    margin-left: -38%;
+}
+.sec9innerdiv2 .sec9imgdiv2{
+    height: 45%;
+    width: 60%;
+    margin-top: -32rem;
+    margin-left: 80%;
+}
+.sec9div3{
+    height: 130vh;
+    width: 35%;
+    padding-left: 2rem;
+    padding-top: 30rem;
+    letter-spacing: 0.1rem;
+}
+.sec9div3 h1{
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding-bottom: 0.5rem;
+}
+.sec9div3 p{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding-bottom: 1rem;
+}
+.sec9div3 button{
+    height: 3rem;
+    width: 16rem;
+    letter-spacing: 0.1rem;
+    border: none;
+    color: black;
+    background-color: #eee2ca;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.sec9div3 button:hover{
+    background-color: black;
+    color: white;
+}
+.section10{
+    height: 100%;
+    width: 100%;
+    background-color: #F6F6F4;
+}
+.sec10updiv{
+    height: 25vh;
+    width: 97%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.sec10updiv h1{
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: 100;
+}
+.sec10lodiv{
+    height: 50vh;
+    width: 97%;
+    margin: auto;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.sec10lodiv div{
+    height: 100%;
+    width: 20%;
+    display: inline-block;
+    margin-right: -4px;
+}
+.slide1{
+    background-image: url(sec10img13.webp);
+    background-size: cover;
+    background-position: center;
+    filter: contrast(1) saturate(1.1);
+}
+.slide2{
+    background-image: url(sec10img12.webp);
+    background-size: cover;
+    background-position: center;
+    filter: contrast(1) saturate(1.1);
+}
+.slide3{
+    background-image: url(sec10img14.webp);
+    background-size: cover;
+    background-position: center;
+    filter: contrast(1) saturate(1.1);
+}
+.slide4{
+    background-image: url(sec10img4.webp);
+    background-size: cover;
+    background-position: center;
+    filter: contrast(1) saturate(1.1);
+}
+.slide5{
+    background-image: url(sec10img5.webp);
+    background-size: cover;
+    background-position: center;
+    filter: contrast(1) saturate(1.1);
+}
+.slide6{
+    background-image: url(sec10img6.webp);
+    background-size: cover;
+    background-position: center;
+    filter: contrast(1) saturate(1.1);
+}
+.slide7{
+    background-image: url(sec10img7.webp);
+    background-size: cover;
+    background-position: center;
+    filter: contrast(1) saturate(1.1);
+}
+.slide8{
+    background-image: url(sec10img8.webp);
+    background-size: cover;
+    background-position: center;
+    filter: contrast(1) saturate(1.1);
+}
+.slide9{
+    background-image: url(sec10img9.webp);
+    background-size: cover;
+    background-position: center;
+    filter: contrast(1) saturate(1.1);
+}
+.slide10{
+    background-image: url(sec10img10.webp);
+    background-size: cover;
+    background-position: center;
+    filter: contrast(1) saturate(1.1);
+}
+.slide11{
+    background-image: url(sec10img11.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: contrast(1) saturate(1.1);
+}
+.slide12{
+    background-image: url(sec10img1.avif);
+    background-size: cover;
+    background-position: center;
+    filter: contrast(1) saturate(1.1);
+}
+.slide13{
+    background-image: url(sec10img2.webp);
+    background-size: cover;
+    background-position: center;
+    filter: contrast(1) saturate(1.1);
+}
+.slide14{
+    background-image: url(sec10img3.avif);
+    background-size: cover;
+    background-position: center;
+    filter: contrast(1) saturate(1.1);
+}
+.slide15{
+    background-image: url(sec10img15.webp);
+    background-size: cover;
+    background-position: center;
+    filter: contrast(1) saturate(1.1);
+}
+.sec10lodiv div{
+    /* display: inline-block; */
+    animation-name: slide;
+    animation-duration: 30s;
+    animation-timing-function: steps(15,end);
+    animation-iteration-count: infinite;
+    will-change: transform;
+}
+@keyframes slide {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(calc(-1200% - 4px));
+    }
+
+}   
+
+footer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    background-color: #F6F6F4;
+}
+.footerdiv1{
+    height: 80vh;
+    width: 48.5%;
+    background-color: #EFECE6;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 5%;
+}
+.footerdiv1 h4{
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+    padding-bottom: 0.5rem;
+}
+.footerdiv1 p{
+    font-size: 2rem;
+    font-weight: 100;
+    padding-bottom: 1rem;
+    
+}
+.footerdiv1 input{
+    height: 3rem;
+    width: 85%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    background-color: #EFECE6;
+}
+.footerdiv1 button{
+    height: 3rem;
+    width: 10%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    background-color: #EFECE6;
+    cursor: pointer;
+}
+.footerdiv1img{
+    height: 20vh;
+    width: 95%;
+    background-image: url(footerimg.webp);
+    background-size: 100% 100%;
+    background-position: center;
+    margin-top: 2rem;
+}
+
+.footerdiv2{
+    height: 80vh;
+    width: 48.9%;
+    background-color: #E4E1DC;
+    display: flex;
+    align-items: center;
+}
+.footerdiv2 div{
+    height: 40vh;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footerdiv2 ul{
+    list-style-type: none;
+}
+.footerdiv2 li{
+    line-height: 2.7;
+    letter-spacing: 0.1rem;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.copyrightdiv{
+    height: 10vh;
+    width: 100%;
+    background-color: #F6F6F4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.copyrightdiv ul{
+    list-style-type: none;
+    display: flex;
+    gap: 3rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.copyrightdiv p{
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+@media (max-width:425px) {
+    header {
+        height: 7vh;
+        width: 100%;
+        background-color: #F6F6F4;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .options1 {
+        display: none;
+    }
+
+    .options2 {
+        display: none;
+    }
+
+    .headermenu {
+        display: block;
+        font-size: 1.5rem;
+    }
+
+    .shopbag {
+        display: block;
+        font-size: 0.8rem;
+    }
+
+    .logo img {
+        height: 3vh;
+        padding-left: 2rem;
+    }
+
+    .herosection {
+        height: 55vh;
+        width: 100%;
+        background-color: #F6F6F4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vh;
+    }
+
+    .heroimg {
+        height: 50vh;
+        width: 90%;
+        background-image: url(herosectionimg.webp);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        padding-top: 9rem;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .heroimg h1 {
+        font-family: 'Didot';
+        font-size: 1.4rem;
+        font-weight: 600;
+        font-weight: 100;
+        padding-bottom: 0.5rem;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .heroimg h5 {
+        font-size: 0.7rem;
+        font-weight: 400;
+        padding-bottom: 1rem;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .heroimg button {
+        height: 2rem;
+        width: 35%;
+        font-size: 0.8rem;
+        background-color: #E2DCD2;
+        border: none;
+        cursor: pointer;
+        color: black;
+    }
+
+    .section2 {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #EFECE6;
+    }
+
+    .sec2div1 {
+        height: 50vh;
+        width: 92%;
+        background-image: url(sec2div1img.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sec2div2 {
+        height: 70%;
+        width: 92%;
+        background-color: #EFECE6;
+        padding: 1rem;
+    }
+
+    .sec2div2 h1 {
+        font-size: 2rem;
+        font-weight: 100;
+        padding-bottom: 1rem;
+    }
+
+    .sec2div2 h2 {
+        font-size: 1.5rem;
+        font-weight: lighter;
+        font-family: cursive;
+        text-align: end;
+        padding-bottom: 1rem;
+    }
+
+    .sec2div2 p {
+        font-size: 0.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 2rem;
+    }
+
+    .sec2div2 ul {
+        font-size: 0.9rem;
+        list-style-type: none;
+        gap: 0.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sec2div2 i {
+        font-size: 1.5rem;
+        font-family: cursive;
+        vertical-align: -0.2rem;
+    }
+
+    .sec2div2 button {
+        height: 3rem;
+        width: 12rem;
+        border: none;
+        font-size: 0.9rem;
+        font-weight: lighter;
+        background-color: #E2DCD2;
+        cursor: pointer;
+        color: black;
+    }
+
+    .section3 {
+        height: 82vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        position: relative;
+        padding-bottom: 1rem;
+    }
+
+    .sec3divdata {
+        height: 32vh;
+        width: 95%;
+        text-align: center;
+    }
+
+    .sec3divdata h1 {
+        font-size: 1.2rem;
+        font-weight: 100;
+        padding-bottom: 1rem;
+    }
+
+    .sec3divdata h1 span {
+        font-family: cursive;
+        font-weight: 100;
+        font-size: 1.2rem;
+    }
+
+    .sec3divdata p {
+        font-size: 0.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        line-height: 1.2;
+        padding-bottom: 1rem;
+    }
+
+    .sec3divdata button {
+        height: 2.5rem;
+        width: 10rem;
+        background-color: #E2DCD2;
+        border: none;
+        font-size: 1rem;
+    }
+
+
+    .sec3img1 {
+        height: 30vh;
+        width: 20vh;
+        position: absolute;
+        top: 2rem;
+        left: 1rem;
+        background-image: url(sec3img1.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sec3img2 {
+        height: 35vh;
+        width: 25vh;
+        position: absolute;
+        top: 4rem;
+        right: 2rem;
+        background-image: url(sec3img2.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sec3img3 {
+        display: none;
+    }
+
+    .sec3img4 {
+        display: none;
+    }
+
+    .sec3img5 {
+        display: none;
+    }
+
+    .sec3img6 {
+        display: none;
+    }
+
+    .section4 {
+        height: 80%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #F6F6F4;
+
+    }
+
+    .sec4div {
+        height: 70%;
+        width: 97%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 3rem;
+        background-color: #E4E1DC;
+    }
+
+    .sec4div p {
+        font-size: 1.3rem;
+        font-weight: 100;
+        line-height: 1.3;
+        color: #5d5850;
+        text-align: center;
+    }
+
+    .sec4logos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        padding-top: 4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 4rem;
+
+    }
+
+    .sec4logos img {
+        height: 0.5rem;
+        cursor: pointer;
+    }
+
+    .section5 {
+        height: 100%;
+        width: 100%;
+    }
+
+    .sec5updiv {
+        height: 15%;
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        padding-bottom: 1rem;
+    }
+
+    .sec5option ul {
+        display: flex;
+        gap: 1rem;
+        list-style-type: none;
+        font-size: 0.7rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sec5option .sec5featured {
+        font-size: 1.7rem;
+        font-weight: 100;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .sec5updiv button {
+        display: none;
+    }
+
+    .sec5lodiv {
+        height: 80%;
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.2rem;
+
+    }
+
+    .sec5lodiv div {
+        height: 60vh;
+        width: 97%;
+    }
+
+    .sec5lodiv1 {
+        background-image: url(sec5img1.1.webp);
+        background-size: cover;
+        background-position: center;
+        background-color: #EFECE6;
+        padding-top: 19rem;
+        transition: all ease-in 0.2s;
+        overflow: hidden;
+    }
+
+    .sec5lodiv1 h4 {
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        padding-bottom: 0.5rem;
+    }
+
+    .sec5lodiv1 .sec5price {
+        border: none;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sec5lodiv1 .sec5hoverdiv {
+        height: 8vh;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1rem;
+        transition: all ease-in 0.3s;
+    }
+
+    .sec5lodiv1:hover {
+        background-image: url(secfaceimg1.webp);
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+        cursor: pointer;
+
+    }
+
+    .sec5lodiv1:hover .sec5hoverdiv {
+        transform: translateY(-24rem);
+    }
+
+    .sec5lodiv2 {
+        background-image: url(sec5img2.webp);
+        background-size: cover;
+        background-position: center;
+        background-color: #EFECE6;
+        padding-top: 19rem;
+        transition: all ease-in 0.2s;
+        overflow: hidden;
+    }
+
+    .sec5lodiv2 h4 {
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        padding-bottom: 0.5rem;
+    }
+
+    .sec5lodiv2 .sec5price {
+        border: none;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sec5lodiv2 .sec5hoverdiv {
+        height: 8vh;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1rem;
+        transition: all ease-in 0.3s;
+    }
+
+    .sec5lodiv2:hover {
+        background-image: url(sec5faceimg2.webp);
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+        cursor: pointer;
+
+    }
+
+    .sec5lodiv2:hover .sec5hoverdiv {
+        transform: translateY(-24rem);
+    }
+
+    .sec5lodiv3 {
+        background-image: url(sec5img3.webp);
+        background-size: cover;
+        background-position: center;
+        background-color: #EFECE6;
+        padding-top: 19rem;
+        transition: all ease-in 0.2s;
+        overflow: hidden;
+    }
+
+    .sec5lodiv3 h4 {
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        padding-bottom: 0.5rem;
+    }
+
+    .sec5lodiv3 .sec5price {
+        border: none;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sec5lodiv3 .sec5hoverdiv {
+        height: 8vh;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1rem;
+        transition: all ease-in 0.3s;
+    }
+
+    .sec5lodiv3:hover {
+        background-image: url(sec5faceimg3.webp);
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+        cursor: pointer;
+
+    }
+
+    .sec5lodiv3:hover .sec5hoverdiv {
+        transform: translateY(-24rem);
+    }
+
+    .section6 {
+        height: 55vh;
+        width: 100%;
+        background-color: #F6F6F4;
+    }
+
+    .sec6updiv {
+        height: 15%;
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F6F6F4;
+    }
+
+    .sec6updiv p {
+        font-size: 1.3rem;
+        font-weight: 100;
+        font-family: cursive;
+    }
+
+    .sec6lodiv {
+        height: 80%;
+        width: 95%;
+        background-color: #F6F6F4;
+        margin: auto;
+        white-space: nowrap;
+        overflow-y: hidden;
+        overflow-x: hidden;
+
+    }
+
+    .sliderr {
+        height: 95%;
+        width: 90%;
+        display: inline-flex;
+        /* display: flex; */
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+    }
+
+    .sliderr .sec6text {
+        height: 100%;
+        width: 50%;
+        background-color: #5D3529;
+        color: white;
+        padding-top: 1rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        white-space: wrap;
+    }
+
+    .sec6text p,
+    h5 {
+        font-size: 0.7rem;
+        line-height: 1.3;
+        padding-top: 1rem;
+        font-weight: 100;
+    }
+
+    .sliderr .sec6img {
+        height: 100%;
+        width: 50%;
+        background-image: url(sec6img1.1.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sliderr .img {
+        display: none;
+    }
+
+    .sliderr .sec6img2 {
+        height: 100%;
+        width: 50%;
+        background-image: url(sec6img2.2.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sliderr .sec6img3 {
+        height: 100%;
+        width: 50%;
+        background-image: url(sec6img3.3.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sliderr .sec6img4 {
+        height: 100%;
+        width: 50%;
+        background-image: url(sec6img4.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sliderr .sec6img5 {
+        height: 100%;
+        width: 50%;
+        background-image: url(sec6img5.5.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sliderr .sec6img6 {
+        height: 100%;
+        width: 50%;
+        background-image: url(sec6img6.6.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sliderr .sec6img7 {
+        height: 100%;
+        width: 50%;
+        background-image: url(sec6img7.7.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sliderr {
+        display: inline-flex;
+        animation-name: slide;
+        animation-duration: 59s;
+        margin-right: 1px;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        will-change: transform;
+    }
+
+    @keyframes slide {
+        from {
+            transform: translateX(0%);
+        }
+
+        to {
+            transform: translateX(calc(-1200% - 4px));
+        }
+    }
+
+    .section7 {
+        height: 180%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+    }
+
+    .section7 div {
+        height: 80vh;
+        width: 97%;
+        margin-top: 0.5rem;
+        margin-left: 0.2rem;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .sec7div1 {
+        display: none;
+    }
+
+    .sec7div1 p {
+        font-size: 3rem;
+        font-family: cursive;
+        font-weight: 100;
+    }
+
+    .sec7div1 p1 {
+        font-size: 3rem;
+        font-weight: 100;
+    }
+
+    .sec7div2 p {
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .sec7div2 button {
+        height: 2.8rem;
+        width: 9rem;
+        border: none;
+        color: black;
+        background-color: #E2DCD2;
+        margin: auto;
+        font-size: 1rem;
+        display: block;
+    }
+
+    .sec7div2 .sec7img1 {
+        height: 50%;
+        width: 100%;
+        margin-left: 0;
+        background-image: url(sec7img1.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sec7div3 p {
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .sec7div3 button {
+        height: 2.8rem;
+        width: 9rem;
+        border: none;
+        color: black;
+        background-color: #E2DCD2;
+        margin-top: 3rem;
+        font-size: 1rem;
+        display: block;
+        margin: auto;
+    }
+
+    .sec7div3 .sec7img2 {
+        height: 50%;
+        width: 100%;
+        margin-left: 0;
+        background-image: url(sec7img2.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sec7div4 p {
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .sec7div4 button {
+        height: 2.8rem;
+        width: 9rem;
+        border: none;
+        color: black;
+        background-color: #E2DCD2;
+        margin-top: 2rem;
+        font-size: 1rem;
+        display: block;
+        margin: auto;
+    }
+
+    .sec7div4 .sec7img3 {
+        height: 50%;
+        width: 100%;
+        margin-left: 0;
+        background-image: url(sec7img3.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .section7 button:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .section8{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #F6F6F4;
+    }
+    .sec8imgdiv{
+        height: 70vh;
+        width: 95%;
+        background-image: url(sec8img.webp);
+        background-position: center;
+        background-size: cover;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 5rem;
+    }
+    .sec8imgdiv h4{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8rem;
+        letter-spacing: 0.1rem;
+        font-weight: 100;
+        color: grey;
+        padding-bottom: 1rem;
+    }
+    .sec8imgdiv p{
+        font-size: 1.3rem;
+        font-weight: 100;
+        padding-bottom: 2rem;
+        line-height: 1.2;
+    }
+    .sec8imgdiv button{
+        height: 3rem;
+        width: 10rem;
+        border: none;
+        font-size: 0.9rem;
+        letter-spacing: 0.1rem;
+        color: black;
+        background-color: white;
+    }
+    .sec8imgdiv button:hover{
+        background-color: black;
+        color: white;
+    }
+
+    .section9{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .sec9div1{
+        height: 105vh;
+        width: 25%;
+        text-align: end;
+        padding-top: 42rem;
+        padding-right: 2rem;
+        display: none;
+        
+    }
+    
+    .sec9div2{
+        height: 85vh;
+        width: 70%;
+        text-align: center;
+    }
+    .sec9div2 h1{
+        font-size: 2rem;
+        font-weight: 100;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    .sec9div2 h2{
+        font-size: 1.4rem;
+        font-weight: 600;
+        font-family: cursive;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .sec9innerdiv2{
+        height: 60vh;
+        width: 100%;
+        background-image: url(sec9img);
+        background-size: cover;
+        background-position: center;
+    }
+    .sec9innerdiv2 .sec9imgdiv1{
+        height: 30%;
+        width: 40%;
+        margin-top: 10rem;
+        margin-left: -20%;
+    }
+    .sec9innerdiv2 .sec9imgdiv2{
+        height: 30%;
+        width: 38%;
+        margin-top: -15rem;
+        margin-left: 84%;
+    }
+    .sec9div3{
+        height: 100vh;
+        width: 25%;
+        padding-left: 1rem;
+        padding-top: 30rem;
+        letter-spacing: 0.1rem;
+        display: none;
+    }
+
+    .section10{
+        height: 100%;
+        width: 100%;
+        background-color: #F6F6F4;
+    }
+    .sec10updiv{
+        height: 8vh;
+        width: 97%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .sec10updiv h1{
+        padding-bottom: 1rem;
+        font-size: 1.4rem;
+        font-weight: 100;
+    }
+    .sec10lodiv{
+        height: 50vh;
+        width: 97%;
+        margin: auto;
+        white-space: nowrap;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .sec10lodiv div{
+        height: 100%;
+        width: 60%;
+        display: inline-block;
+        margin-right: -4px;
+    }
+    .slide1{
+        background-image: url(sec10img13.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide2{
+        background-image: url(sec10img12.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide3{
+        background-image: url(sec10img14.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide4{
+        background-image: url(sec10img4.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide5{
+        background-image: url(sec10img5.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide6{
+        background-image: url(sec10img6.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide7{
+        background-image: url(sec10img7.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide8{
+        background-image: url(sec10img8.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide9{
+        background-image: url(sec10img9.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide10{
+        background-image: url(sec10img10.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide11{
+        background-image: url(sec10img11.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide12{
+        background-image: url(sec10img1.avif);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide13{
+        background-image: url(sec10img2.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide14{
+        background-image: url(sec10img3.avif);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide15{
+        background-image: url(sec10img15.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .sec10lodiv div{
+        /* display: inline-block; */
+        animation-name: slide;
+        animation-duration: 30s;
+        animation-timing-function: steps(15,end);
+        animation-iteration-count: infinite;
+        will-change: transform;
+    }
+    @keyframes slide {
+        from {
+            transform: translateX(0%);
+        }
+    
+        to {
+            transform: translateX(calc(-1200% - 4px));
+        }
+    
+    }   
+
+    footer{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 1rem;
+        background-color: #F6F6F4;
+    }
+    .footerdiv1{
+        height: 50vh;
+        width: 100%;
+        background-color: #EFECE6;
+        padding-left: 1.5rem;
+        padding-right: 1rem;
+        padding-top: 5%;
+    }
+    .footerdiv1 h4{
+        font-size: 0.6rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        letter-spacing: 0.1rem;
+        padding-bottom: 0.5rem;
+    }
+    .footerdiv1 p{
+        font-size: 1.6rem;
+        font-weight: 100;
+        padding-bottom: 1rem;
+        
+    }
+    .footerdiv1 input{
+        height: 3rem;
+        width: 75%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid black;
+        background-color: #EFECE6;
+    }
+    .footerdiv1 button{
+        height: 3rem;
+        width: 20%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        color: black;
+        border-bottom: 1px solid black;
+        background-color: #EFECE6;
+        cursor: pointer;
+    }
+    .footerdiv1img{
+        height: 15vh;
+        width: 95%;
+        background-image: url(footerimg.webp);
+        background-size: 100% 100%;
+        background-position: center;
+        margin-top: 1rem;
+    }
+    
+    .footerdiv2{
+        height: 40vh;
+        width: 100%;
+        background-color: #E4E1DC;
+        display: flex;
+        align-items: center;
+        padding-left: 1rem;
+    }
+    .footerdiv2 div{
+        height: 35vh;
+        width: 35%;
+        display: flex;
+        justify-content: center;
+    }
+    .footerdiv2 ul{
+        list-style-type: none;
+    }
+    .footerdiv2 li{
+        line-height: 2.7;
+        letter-spacing: 0.1rem;
+        font-size: 0.6rem;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+    
+    .copyrightdiv{
+        height: 8vh;
+        width: 100%;
+        background-color: #F6F6F4;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .copyrightdiv ul{
+        list-style-type: none;
+        display: flex;
+        font-size: 0.5rem;
+        letter-spacing: 0.1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .copyrightdiv p{
+        font-size: 0.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .copyli{
+        display: none;
+    }
+}
+
+@media (min-width:425px) and (max-width:768px) {
+
+    header {
+        height: 8vh;
+        width: 100%;
+        background-color: #F6F6F4;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .options1 {
+        display: none;
+    }
+
+    .options2 {
+        display: none;
+    }
+
+    .headermenu {
+        display: block;
+        font-size: 1.5rem;
+    }
+
+    .shopbag {
+        display: block;
+        font-size: 0.8rem;
+    }
+
+    .logo img {
+        height: 3.8vh;
+        padding-left: 2rem;
+    }
+
+    .herosection {
+        height: 60vh;
+        width: 100%;
+        background-color: #F6F6F4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6vh;
+    }
+
+    .heroimg {
+        height: 55vh;
+        width: 95%;
+        background-image: url(herosectionimg.webp);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        padding-top: 9rem;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .heroimg h1 {
+        font-family: 'Didot';
+        font-size: 2.2rem;
+        font-weight: 100;
+        padding-bottom: 0.5rem;
+    }
+
+    .heroimg h5 {
+        font-size: 0.7rem;
+        font-weight: 400;
+        padding-bottom: 0.5rem;
+    }
+
+    .heroimg button {
+        height: 2.5rem;
+        width: 30%;
+        font-size: 0.8rem;
+        background-color: #E2DCD2;
+        border: none;
+        cursor: pointer;
+    }
+
+    .section2 {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #EFECE6;
+    }
+
+    .sec2div1 {
+        height: 80vh;
+        width: 92%;
+        background-image: url(sec2div1img.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sec2div2 {
+        height: 70%;
+        width: 92%;
+        background-color: #EFECE6;
+        padding: 1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .sec2div2 h1 {
+        font-size: 2rem;
+        font-weight: 100;
+        padding-bottom: 1rem;
+    }
+
+    .sec2div2 h2 {
+        font-size: 1.5rem;
+        font-weight: lighter;
+        font-family: cursive;
+        text-align: end;
+        padding-bottom: 1rem;
+    }
+
+    .sec2div2 p {
+        font-size: 0.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 2rem;
+    }
+
+    .sec2div2 ul {
+        font-size: 0.9rem;
+        list-style-type: none;
+        gap: 0.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sec2div2 i {
+        font-size: 1.5rem;
+        font-family: cursive;
+        vertical-align: -0.2rem;
+    }
+
+    .sec2div2 button {
+        height: 3rem;
+        width: 12rem;
+        border: none;
+        font-size: 0.9rem;
+        font-weight: lighter;
+        background-color: #E2DCD2;
+        cursor: pointer;
+        color: black;
+    }
+
+    .section3 {
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        position: relative;
+        padding-bottom: 1rem;
+    }
+
+    .sec3divdata {
+        height: 40%;
+        width: 95%;
+        text-align: center;
+    }
+
+    .sec3divdata h1 {
+        font-size: 1.2rem;
+        font-weight: 100;
+        padding-bottom: 1rem;
+    }
+
+    .sec3divdata h1 span {
+        font-family: cursive;
+        font-weight: 100;
+        font-size: 1.2rem;
+    }
+
+    .sec3divdata p {
+        font-size: 0.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        line-height: 1.4;
+        padding-bottom: 2rem;
+    }
+
+    .sec3divdata button {
+        height: 2.5rem;
+        width: 10rem;
+        background-color: #E2DCD2;
+        border: none;
+        font-size: 1rem;
+    }
+
+
+    .sec3img1 {
+        height: 30vh;
+        width: 30vh;
+        position: absolute;
+        top: 2rem;
+        left: 3rem;
+        background-image: url(sec3img1.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sec3img2 {
+        height: 35vh;
+        width: 40vh;
+        position: absolute;
+        top: 4rem;
+        right: 3rem;
+        background-image: url(sec3img2.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sec3img3 {
+        display: none;
+    }
+
+    .sec3img4 {
+        display: none;
+    }
+
+    .sec3img5 {
+        display: none;
+    }
+
+    .sec3img6 {
+        display: none;
+    }
+
+    .section4 {
+        height: 80%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #F6F6F4;
+
+    }
+
+    .sec4div {
+        height: 70%;
+        width: 97%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 5rem;
+        background-color: #E4E1DC;
+    }
+
+    .sec4div p {
+        font-size: 1.3rem;
+        font-weight: 100;
+        line-height: 1.3;
+        color: #5d5850;
+        text-align: center;
+    }
+
+    .sec4logos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        padding-top: 4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 4rem;
+
+    }
+
+    .sec4logos img {
+        height: 0.7rem;
+        cursor: pointer;
+    }
+
+    .section5 {
+        height: 100%;
+        width: 100%;
+    }
+
+    .sec5updiv {
+        height: 20%;
+        width: 97%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        padding-bottom: 1rem;
+    }
+
+    .sec5option ul {
+        display: flex;
+        gap: 1rem;
+        list-style-type: none;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sec5option .sec5featured {
+        font-size: 2.4rem;
+        font-weight: 100;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .sec5updiv button {
+        display: none;
+    }
+
+    .sec5lodiv {
+        height: 80%;
+        width: 97%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.2rem;
+    }
+
+    .sec5lodiv div {
+        height: 90vh;
+        width: 98%;
+    }
+
+    .sec5lodiv1 {
+        background-image: url(sec5img1.1.webp);
+        background-size: cover;
+        background-position: center;
+        background-color: #EFECE6;
+        padding-top: 19rem;
+        transition: all ease-in 0.2s;
+        overflow: hidden;
+    }
+
+    .sec5lodiv1 h4 {
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        padding-bottom: 0.5rem;
+    }
+
+    .sec5lodiv1 .sec5price {
+        border: none;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sec5lodiv1 .sec5hoverdiv {
+        height: 8vh;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1rem;
+        transition: all ease-in 0.3s;
+    }
+
+    .sec5lodiv1:hover {
+        background-image: url(secfaceimg1.webp);
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+        cursor: pointer;
+
+    }
+
+    .sec5lodiv1:hover .sec5hoverdiv {
+        transform: translateY(-24rem);
+    }
+
+    .sec5lodiv2 {
+        background-image: url(sec5img2.webp);
+        background-size: cover;
+        background-position: center;
+        background-color: #EFECE6;
+        padding-top: 19rem;
+        transition: all ease-in 0.2s;
+        overflow: hidden;
+    }
+
+    .sec5lodiv2 h4 {
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        padding-bottom: 0.5rem;
+    }
+
+    .sec5lodiv2 .sec5price {
+        border: none;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sec5lodiv2 .sec5hoverdiv {
+        height: 8vh;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1rem;
+        transition: all ease-in 0.3s;
+    }
+
+    .sec5lodiv2:hover {
+        background-image: url(sec5faceimg2.webp);
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+        cursor: pointer;
+
+    }
+
+    .sec5lodiv2:hover .sec5hoverdiv {
+        transform: translateY(-24rem);
+    }
+
+    .sec5lodiv3 {
+        background-image: url(sec5img3.webp);
+        background-size: cover;
+        background-position: center;
+        background-color: #EFECE6;
+        padding-top: 19rem;
+        transition: all ease-in 0.2s;
+        overflow: hidden;
+    }
+
+    .sec5lodiv3 h4 {
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        padding-bottom: 0.5rem;
+    }
+
+    .sec5lodiv3 .sec5price {
+        border: none;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sec5lodiv3 .sec5hoverdiv {
+        height: 8vh;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1rem;
+        transition: all ease-in 0.3s;
+    }
+
+    .sec5lodiv3:hover {
+        background-image: url(sec5faceimg3.webp);
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+        cursor: pointer;
+
+    }
+
+    .sec5lodiv3:hover .sec5hoverdiv {
+        transform: translateY(-24rem);
+    }
+
+    .section6 {
+        height: 70vh;
+        width: 100%;
+        background-color: #F6F6F4;
+    }
+
+    .sec6updiv {
+        height: 20%;
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F6F6F4;
+    }
+
+    .sec6updiv p {
+        font-size: 2rem;
+        font-weight: 100;
+        font-family: cursive;
+    }
+
+    .sec6lodiv {
+        height: 80%;
+        width: 95%;
+        background-color: #F6F6F4;
+        margin: auto;
+        white-space: nowrap;
+        overflow-y: hidden;
+        overflow-x: hidden;
+
+    }
+
+    .sliderr {
+        height: 95%;
+        width: 90%;
+        display: inline-flex;
+        /* display: flex; */
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+    }
+
+    .sliderr .sec6text {
+        height: 100%;
+        width: 50%;
+        background-color: #5D3529;
+        color: white;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        white-space: wrap;
+    }
+
+    .sec6text p,
+    h5 {
+        font-size: 1rem;
+        line-height: 1.3;
+        padding-top: 1rem;
+        font-weight: 100;
+    }
+
+    .sliderr .sec6img {
+        height: 100%;
+        width: 50%;
+        background-image: url(sec6img1.1.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sliderr .img {
+        display: none;
+    }
+
+    .sliderr .sec6img2 {
+        height: 100%;
+        width: 50%;
+        background-image: url(sec6img2.2.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sliderr .sec6img3 {
+        height: 100%;
+        width: 50%;
+        background-image: url(sec6img3.3.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sliderr .sec6img4 {
+        height: 100%;
+        width: 50%;
+        background-image: url(sec6img4.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sliderr .sec6img5 {
+        height: 100%;
+        width: 50%;
+        background-image: url(sec6img5.5.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sliderr .sec6img6 {
+        height: 100%;
+        width: 50%;
+        background-image: url(sec6img6.6.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sliderr .sec6img7 {
+        height: 100%;
+        width: 50%;
+        background-image: url(sec6img7.7.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sliderr {
+        display: inline-flex;
+        animation-name: slide;
+        animation-duration: 59s;
+        margin-right: 1px;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        will-change: transform;
+    }
+
+    @keyframes slide {
+        from {
+            transform: translateX(0%);
+        }
+
+        to {
+            transform: translateX(calc(-1200% - 4px));
+        }
+    }
+
+    .section7 {
+        height: 180%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+    }
+
+    .section7 div {
+        height: 70vh;
+        width: 97%;
+        margin-top: 0.5rem;
+        margin-left: 0.2rem;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .sec7div1 {
+        display: none;
+    }
+
+    .sec7div1 p {
+        font-size: 3rem;
+        font-family: cursive;
+        font-weight: 100;
+    }
+
+    .sec7div1 p1 {
+        font-size: 3rem;
+        font-weight: 100;
+    }
+
+    .sec7div2 p {
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .sec7div2 button {
+        height: 2.8rem;
+        width: 9rem;
+        border: none;
+        color: black;
+        background-color: #E2DCD2;
+        margin: auto;
+        font-size: 1rem;
+        display: block;
+    }
+
+    .sec7div2 .sec7img1 {
+        height: 50%;
+        width: 100%;
+        margin-left: 0;
+        background-image: url(sec7img1.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sec7div3 p {
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .sec7div3 button {
+        height: 2.8rem;
+        width: 9rem;
+        border: none;
+        color: black;
+        background-color: #E2DCD2;
+        margin-top: 3rem;
+        font-size: 1rem;
+        display: block;
+        margin: auto;
+    }
+
+    .sec7div3 .sec7img2 {
+        height: 50%;
+        width: 100%;
+        margin-left: 0;
+        background-image: url(sec7img2.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sec7div4 p {
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .sec7div4 button {
+        height: 2.8rem;
+        width: 9rem;
+        border: none;
+        color: black;
+        background-color: #E2DCD2;
+        margin-top: 2rem;
+        font-size: 1rem;
+        display: block;
+        margin: auto;
+    }
+
+    .sec7div4 .sec7img3 {
+        height: 50%;
+        width: 100%;
+        margin-left: 0;
+        background-image: url(sec7img3.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .section7 button:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .section8{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #F6F6F4;
+    }
+    .sec8imgdiv{
+        height: 90vh;
+        width: 97%;
+        background-image: url(sec8img.webp);
+        background-position: center;
+        background-size: cover;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 10rem;
+    }
+    .sec8imgdiv h4{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9rem;
+        letter-spacing: 0.1rem;
+        font-weight: 100;
+        color: grey;
+        padding-bottom: 1rem;
+    }
+    .sec8imgdiv p{
+        font-size: 1.7rem;
+        font-weight: 100;
+        padding-bottom: 2rem;
+        line-height: 1.2;
+    }
+    .sec8imgdiv button{
+        height: 3.5rem;
+        width: 12rem;
+        border: none;
+        font-size: 0.9rem;
+        letter-spacing: 0.1rem;
+        background-color: white;
+    }
+    .sec8imgdiv button:hover{
+        background-color: black;
+        color: white;
+    }
+
+    .section9{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #F6F6F4;
+    }
+    .sec9div1{
+        height: 100vh;
+        width: 25%;
+        text-align: end;
+        padding-top: 42rem;
+        padding-right: 2rem;
+        display: none;
+        
+    }
+    
+    .sec9div2{
+        height: 105vh;
+        width: 70%;
+        text-align: center;
+          background-color: #F6F6F4;
+    }
+    .sec9div2 h1{
+        font-size: 2.5rem;
+        font-weight: 100;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .sec9div2 h2{
+        font-size: 1.5rem;
+        font-weight: 100;
+        font-family: cursive;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .sec9innerdiv2{
+        height: 80vh;
+        width: 100%;
+        background-image: url(sec9img);
+        background-size: cover;
+        background-position: center;
+    }
+    .sec9innerdiv2 .sec9imgdiv1{
+        height: 45%;
+        width: 40%;
+        margin-top: 14rem;
+        margin-left: -20%;
+    }
+    .sec9innerdiv2 .sec9imgdiv2{
+        height: 45%;
+        width: 38%;
+        margin-top: -27rem;
+        margin-left: 84%;
+    }
+    .sec9div3{
+        height: 100vh;
+        width: 25%;
+        border: 2px solid black;
+        padding-left: 1rem;
+        padding-top: 30rem;
+        letter-spacing: 0.1rem;
+        display: none;
+    }
+
+    .section10{
+        height: 100%;
+        width: 100%;
+        background-color: #F6F6F4;
+    }
+    .sec10updiv{
+        height: 10vh;
+        width: 97%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .sec10updiv h1{
+        padding-bottom: 1rem;
+        font-size: 1.4rem;
+        font-weight: 100;
+    }
+    .sec10lodiv{
+        height: 60vh;
+        width: 97%;
+        margin: auto;
+        white-space: nowrap;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .sec10lodiv div{
+        height: 100%;
+        width: 40%;
+        display: inline-block;
+        margin-right: -4px;
+    }
+    .slide1{
+        background-image: url(sec10img13.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide2{
+        background-image: url(sec10img12.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide3{
+        background-image: url(sec10img14.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide4{
+        background-image: url(sec10img4.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide5{
+        background-image: url(sec10img5.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide6{
+        background-image: url(sec10img6.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide7{
+        background-image: url(sec10img7.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide8{
+        background-image: url(sec10img8.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide9{
+        background-image: url(sec10img9.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide10{
+        background-image: url(sec10img10.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide11{
+        background-image: url(sec10img11.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide12{
+        background-image: url(sec10img1.avif);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide13{
+        background-image: url(sec10img2.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide14{
+        background-image: url(sec10img3.avif);
+        background-size: cover;
+        background-position: center;
+    }
+    .slide15{
+        background-image: url(sec10img15.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .sec10lodiv div{
+        /* display: inline-block; */
+        animation-name: slide;
+        animation-duration: 30s;
+        animation-timing-function: steps(15,end);
+        animation-iteration-count: infinite;
+        will-change: transform;
+    }
+    @keyframes slide {
+        from {
+            transform: translateX(0%);
+        }
+    
+        to {
+            transform: translateX(calc(-1200% - 4px));
+        }
+    
+    }   
+    
+     footer{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 1rem;
+        background-color: #F6F6F4;
+    }
+    .footerdiv1{
+        height: 60vh;
+        width: 100%;
+        background-color: #EFECE6;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 5%;
+    }
+    .footerdiv1 h4{
+        font-size: 0.6rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        letter-spacing: 0.1rem;
+        padding-bottom: 0.5rem;
+    }
+    .footerdiv1 p{
+        font-size: 1.6rem;
+        font-weight: 100;
+        padding-bottom: 1rem;
+        
+    }
+    .footerdiv1 input{
+        height: 3rem;
+        width: 75%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid black;
+        background-color: #EFECE6;
+    }
+    .footerdiv1 button{
+        height: 3rem;
+        width: 20%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        color: black;
+        border-bottom: 1px solid black;
+        background-color: #EFECE6;
+        cursor: pointer;
+    }
+    .footerdiv1img{
+        height: 20vh;
+        width: 100%;
+        background-image: url(footerimg.webp);
+        background-size: 100% 100%;
+        background-position: center;
+        margin-top: 1rem;
+    }
+    
+    .footerdiv2{
+        height: 50vh;
+        width: 100%;
+        background-color: #E4E1DC;
+        display: flex;
+        align-items: center;
+    }
+    .footerdiv2 div{
+        height: 40vh;
+
+        display: flex;
+        justify-content: center;
+    }
+    .footerdiv2 ul{
+        list-style-type: none;
+    }
+    .footerdiv2 li{
+        line-height: 2.7;
+        letter-spacing: 0.1rem;
+        font-size: 0.7rem;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+
+    .copyrightdiv{
+        height: 8vh;
+        width: 100%;
+        background-color: #F6F6F4;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .copyrightdiv ul{
+        list-style-type: none;
+        display: flex;
+        font-size: 0.6rem;
+        letter-spacing: 0.1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .copyrightdiv p{
+        font-size: 0.6rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .copyli{
+        display: none;
+    }
+}
+
+@media (min-width:769px) and (max-width:1324px) {
+
+    header {
+        height: 10vh;
+        width: 100%;
+        background-color: #F6F6F4;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .headermenu {
+        display: none;
+    }
+
+    .options1 ul {
+        display: flex;
+        gap: 1rem;
+        list-style-type: none;
+        font-size: 0.6rem;
+        cursor: pointer;
+        letter-spacing: 0.1rem;
+    }
+
+    .options1 ul li {
+        transition: all ease 0.1s;
+        padding: 0.1rem;
+    }
+
+    .options2 ul li {
+        transition: all ease 0.1s;
+        padding: 0.1rem;
+    }
+
+    .options2 ul {
+        display: flex;
+        gap: 1rem;
+        list-style-type: none;
+        font-size: 0.6rem;
+        letter-spacing: 0.1rem;
+        cursor: pointer;
+    }
+
+    .logo img {
+        height: 4vh;
+    }
+
+    .options1 ul li:hover {
+        border-bottom: 3px solid black;
+    }
+
+    .options2 ul li:hover {
+        border-bottom: 3px solid black;
+    }
+
+    .herosection {
+        height: 85vh;
+        width: 100%;
+        background-color: #F6F6F4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heroimg {
+        height: 80vh;
+        width: 97%;
+        background-image: url(herosectionimg.webp);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        padding-top: 20rem;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .heroimg h1 {
+        font-family: 'Didot';
+        font-size: 2.5rem;
+        font-weight: 100;
+        padding-bottom: 0.5rem;
+    }
+
+    .heroimg h5 {
+        font-size: 0.7rem;
+        font-weight: 400;
+        padding-bottom: 1rem;
+    }
+
+    .heroimg button {
+        height: 2.5rem;
+        width: 15%;
+        font-size: 0.9rem;
+        background-color: #E2DCD2;
+        border: none;
+        cursor: pointer;
+    }
+
+    .section2 {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #F6F6F4;
+    }
+
+    .sec2div1 {
+        height: 100vh;
+        width: 49%;
+        background-image: url(sec2div1img.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sec2div2 {
+        height: 100vh;
+        width: 49%;
+        background-color: #EFECE6;
+        padding: 2rem;
+        /* padding-left: 10rem;
+        padding-right: 10rem; */
+    }
+
+    .sec2div2 h1 {
+        font-size: 2.5rem;
+        font-weight: 100;
+        padding-bottom: 2rem;
+    }
+
+    .sec2div2 h2 {
+        font-size: 2rem;
+        font-weight: lighter;
+        font-family: cursive;
+        text-align: end;
+        padding-bottom: 2rem;
+    }
+
+    .sec2div2 p {
+        font-size: 0.9rem;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 2rem;
+    }
+
+    .sec2div2 ul {
+        font-size: 0.9rem;
+        display: flex;
+        list-style-type: none;
+        gap: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 2rem;
+    }
+
+    .sec2div2 i {
+        font-size: 1.5rem;
+        font-family: cursive;
+        vertical-align: -0.2rem;
+    }
+
+    .sec2div2 button {
+        height: 3rem;
+        width: 16rem;
+        border: none;
+        font-size: 1rem;
+        font-weight: lighter;
+        background-color: #E2DCD2;
+        cursor: pointer;
+    }
+
+    .section3 {
+        height: 150vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .sec3divdata {
+        height: 30%;
+        width: 50%;
+        text-align: center;
+    }
+
+    .sec3divdata h1 {
+        font-size: 2rem;
+        font-weight: 100;
+        padding-bottom: 1rem;
+    }
+
+    .sec3divdata h1 span {
+        font-family: cursive;
+        font-weight: 100;
+        font-size: 2rem;
+    }
+
+    .sec3divdata p {
+        font-size: 0.9rem;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        line-height: 1.4;
+        padding-bottom: 2rem;
+    }
+
+    .sec3divdata button {
+        height: 3rem;
+        width: 12rem;
+        background-color: #E2DCD2;
+        border: none;
+        font-size: 1rem;
+    }
+
+
+    .sec3img1 {
+        height: 30vh;
+        width: 30vh;
+        position: absolute;
+        top: 2rem;
+        left: 10rem;
+        background-image: url(sec3img1.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sec3img2 {
+        height: 45vh;
+        width: 25vh;
+        position: absolute;
+        top: 15rem;
+        right: 1rem;
+        background-image: url(sec3img2.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sec3img3 {
+        height: 30vh;
+        width: 25vh;
+        position: absolute;
+        top: 20rem;
+        left: 1rem;
+        background-image: url(sec3img4.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sec3img4 {
+        height: 35vh;
+        width: 30vh;
+        position: absolute;
+        top: 43rem;
+        left: 10rem;
+        background-image: url(sec3img3.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sec3img5 {
+        height: 30vh;
+        width: 30vh;
+        position: absolute;
+        top: 43rem;
+        left: 25rem;
+        background-image: url(sec3img5.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sec3img6 {
+        height: 30vh;
+        width: 25vh;
+        position: absolute;
+        top: 2rem;
+        left: 35rem;
+        background-image: url(sec3img7.avif);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .section4 {
+        height: 80%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #F6F6F4;
+
+    }
+
+    .sec4div {
+        height: 80%;
+        width: 97%;
+        padding-left: 12rem;
+        padding-right: 12rem;
+        padding-top: 3rem;
+        background-color: #E4E1DC;
+    }
+
+    .sec4div p {
+        font-size: 1.5rem;
+        font-weight: 100;
+        line-height: 1.3;
+        color: #5d5850;
+        text-align: center;
+    }
+
+    .sec4logos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        padding-top: 4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 4rem;
+
+    }
+
+    .sec4logos img {
+        height: 0.9rem;
+        cursor: pointer;
+    }
+
+    .section5 {
+        height: 80vh;
+        width: 100%;
+    }
+
+    .sec5updiv {
+        height: 15%;
+        width: 97%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        padding-bottom: 1rem;
+    }
+
+    .sec5option ul {
+        display: flex;
+        gap: 2rem;
+        list-style-type: none;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sec5option .sec5featured {
+        font-size: 2rem;
+        font-weight: 100;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .sec5updiv button {
+        height: 2.5rem;
+        width: 6rem;
+        border: none;
+        font-size: 0.8rem;
+        background-color: #E2DCD2;
+    }
+
+    .sec5lodiv {
+        height: 80%;
+        width: 97%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        gap: 0.2rem;
+    }
+
+    .sec5lodiv div {
+        height: 100%;
+        width: 33.33%;
+    }
+
+    .sec5lodiv1 {
+        background-image: url(sec5img1.1.webp);
+        background-size: cover;
+        background-position: center;
+        background-color: #EFECE6;
+        padding-top: 19rem;
+        transition: all ease-in 0.2s;
+        overflow: hidden;
+    }
+
+    .sec5lodiv1 h4 {
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        padding-bottom: 0.5rem;
+    }
+
+    .sec5lodiv1 .sec5price {
+        border: none;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sec5lodiv1 .sec5hoverdiv {
+        height: 8vh;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1rem;
+        transition: all ease-in 0.3s;
+    }
+
+    .sec5lodiv1:hover {
+        background-image: url(secfaceimg1.webp);
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+        cursor: pointer;
+
+    }
+
+    .sec5lodiv1:hover .sec5hoverdiv {
+        transform: translateY(-4.2rem);
+    }
+
+    .sec5lodiv2 {
+        background-image: url(sec5img2.webp);
+        background-size: cover;
+        background-position: center;
+        background-color: #EFECE6;
+        padding-top: 19rem;
+        transition: all ease-in 0.2s;
+        overflow: hidden;
+    }
+
+    .sec5lodiv2 h4 {
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        padding-bottom: 0.5rem;
+    }
+
+    .sec5lodiv2 .sec5price {
+        border: none;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sec5lodiv2 .sec5hoverdiv {
+        height: 8vh;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1rem;
+        transition: all ease-in 0.3s;
+    }
+
+    .sec5lodiv2:hover {
+        background-image: url(sec5faceimg2.webp);
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+        cursor: pointer;
+
+    }
+
+    .sec5lodiv2:hover .sec5hoverdiv {
+        transform: translateY(-4.2rem);
+    }
+
+    .sec5lodiv3 {
+        background-image: url(sec5img3.webp);
+        background-size: cover;
+        background-position: center;
+        background-color: #EFECE6;
+        padding-top: 19rem;
+        transition: all ease-in 0.2s;
+        overflow: hidden;
+    }
+
+    .sec5lodiv3 h4 {
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        padding-bottom: 0.5rem;
+    }
+
+    .sec5lodiv3 .sec5price {
+        border: none;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sec5lodiv3 .sec5hoverdiv {
+        height: 8vh;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1rem;
+        transition: all ease-in 0.3s;
+    }
+
+    .sec5lodiv3:hover {
+        background-image: url(sec5faceimg3.webp);
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+        cursor: pointer;
+
+    }
+
+    .sec5lodiv3:hover .sec5hoverdiv {
+        transform: translateY(-4.2rem);
+    }
+
+    .section6 {
+        height: 90vh;
+        width: 100%;
+        background-color: #F6F6F4;
+    }
+
+    .sec6updiv {
+        height: 20%;
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F6F6F4;
+    }
+
+    .sec6updiv p {
+        font-size: 2.5rem;
+        font-weight: 100;
+        font-family: cursive;
+    }
+
+    .sec6lodiv {
+        height: 80%;
+        width: 95%;
+        background-color: #F6F6F4;
+        margin: auto;
+        white-space: nowrap;
+        overflow-y: hidden;
+        overflow-x: hidden;
+
+    }
+
+    .sliderr {
+        height: 100%;
+        width: 60%;
+        display: inline-flex;
+        /* display: flex; */
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+    }
+
+    .sliderr .sec6text {
+        height: 100%;
+        width: 50%;
+        background-color: #5D3529;
+        color: white;
+        padding-top: 4rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        white-space: wrap;
+    }
+
+    .sec6text p,
+    h5 {
+        font-size: 1rem;
+        line-height: 1.3;
+        padding-top: 1rem;
+        font-weight: 100;
+    }
+
+    .sliderr .sec6img {
+        height: 100%;
+        width: 50%;
+        background-image: url(sec6img1.1.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sliderr .img {
+        position: absolute;
+        top: 10rem;
+        left: 6rem;
+    }
+
+    .sliderr .sec6img2 {
+        height: 100%;
+        width: 50%;
+        background-image: url(sec6img2.2.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sliderr .sec6img3 {
+        height: 100%;
+        width: 50%;
+        background-image: url(sec6img3.3.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sliderr .sec6img4 {
+        height: 100%;
+        width: 50%;
+        background-image: url(sec6img4.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sliderr .sec6img5 {
+        height: 100%;
+        width: 50%;
+        background-image: url(sec6img5.5.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sliderr .sec6img6 {
+        height: 100%;
+        width: 50%;
+        background-image: url(sec6img6.6.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sliderr .sec6img7 {
+        height: 100%;
+        width: 50%;
+        background-image: url(sec6img7.7.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sliderr {
+        display: inline-flex;
+        animation-name: slide;
+        animation-duration: 59s;
+        margin-right: 1px;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        will-change: transform;
+    }
+
+    @keyframes slide {
+        from {
+            transform: translateX(0%);
+        }
+
+        to {
+            transform: translateX(calc(-1200% - 4px));
+        }
+    }
+
+
+    .section7 {
+        height: 110vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+    }
+
+    .section7 div {
+        height: 80%;
+        width: 25%;
+        margin-left: 0.2rem;
+        cursor: pointer;
+    }
+
+    .sec7div1 p {
+        font-size: 2rem;
+        font-family: cursive;
+        font-weight: 100;
+    }
+
+    .sec7div1 p1 {
+        font-size: 2rem;
+        font-weight: 100;
+    }
+
+    .sec7div2 p {
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 0.5rem;
+        line-height: 1.3;
+        font-size: 0.9rem;
+        padding-right: 1rem;
+    }
+
+    .sec7div2 button {
+        height: 2.8rem;
+        width: 8rem;
+        border: none;
+        color: black;
+        background-color: #E2DCD2;
+        margin-top: 1rem;
+        font-size: 1rem;
+        display: none;
+        transition: all ease 9s;
+    }
+
+    .sec7div2 .sec7img1 {
+        height: 65%;
+        width: 100%;
+        margin-left: 0;
+        background-image: url(sec7img1.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sec7div3 p {
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 0.5rem;
+        line-height: 1.3;
+        font-size: 0.9rem;
+        padding-right: 1rem;
+    }
+
+    .sec7div3 button {
+        height: 2.8rem;
+        width: 8rem;
+        border: none;
+        color: black;
+        background-color: #E2DCD2;
+        margin-top: 1rem;
+        font-size: 1rem;
+        display: none;
+        transition: all ease 9s;
+    }
+
+    .sec7div3 .sec7img2 {
+        height: 65%;
+        width: 100%;
+        margin-left: 0;
+        background-image: url(sec7img2.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sec7div4 p {
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 0.5rem;
+        line-height: 1.3;
+        font-size: 0.9rem;
+        padding-right: 1rem;
+    }
+
+    .sec7div4 button {
+        height: 2.8rem;
+        width: 8rem;
+        border: none;
+        color: black;
+        background-color: #E2DCD2;
+        margin-top: 1rem;
+        font-size: 1rem;
+        display: none;
+        transition: all ease 9s;
+    }
+
+    .sec7div4 .sec7img3 {
+        height: 65%;
+        width: 100%;
+        margin-left: 0;
+        background-image: url(sec7img3.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sec7div2:hover button {
+        display: block;
+        cursor: pointer;
+    }
+
+    .sec7div3:hover button {
+        display: block;
+        cursor: pointer;
+    }
+
+    .sec7div4:hover button {
+        display: block;
+        cursor: pointer;
+    }
+
+    .section8{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #F6F6F4;
+    }
+    .sec8imgdiv{
+        height: 90vh;
+        width: 97%;
+        background-image: url(sec8img.webp);
+        background-position: center;
+        background-size: cover;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 30rem;
+    }
+    .sec8imgdiv h4{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9rem;
+        letter-spacing: 0.1rem;
+        font-weight: 100;
+        color: grey;
+        padding-bottom: 1rem;
+    }
+    .sec8imgdiv p{
+        font-size: 1.7rem;
+        font-weight: 100;
+        padding-bottom: 2rem;
+        line-height: 1.2;
+    }
+    .sec8imgdiv button{
+        height: 3.5rem;
+        width: 12rem;
+        border: none;
+        font-size: 0.9rem;
+        letter-spacing: 0.1rem;
+        background-color: white;
+    }
+    .sec8imgdiv button:hover{
+        background-color: black;
+        color: white;
+    }
+
+    .section9{
+        height: 100%;
+        width: 100%;
+        display: flex;
+    }
+    .sec9div1{
+        height: 130vh;
+        width: 30%;
+        text-align: end;
+        padding-top: 35rem;
+        padding-right: 2rem;
+        
+    }
+    
+    .sec9div1 h1{
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        padding-bottom: 0.5rem;
+    }
+    .sec9div1 p{
+        font-size: 0.9rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        letter-spacing: 0.1rem;
+    }
+    .sec9div2{
+        height: 130vh;
+        width: 40%;
+        text-align: center;
+    }
+    .sec9div2 h1{
+        font-size: 2.8rem;
+        font-weight: 100;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .sec9div2 h2{
+        font-size: 1.5rem;
+        font-weight: 100;
+        font-family: cursive;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+    }
+    .sec9innerdiv2{
+        height: 100vh;
+        width: 100%;
+        background-image: url(sec9img);
+        background-size: cover;
+        background-position: center;
+    }
+    .sec9innerdiv2 .sec9imgdiv1{
+        height: 45%;
+        width: 70%;
+        margin-top: 15rem;
+        margin-left: -38%;
+    }
+    .sec9innerdiv2 .sec9imgdiv2{
+        height: 45%;
+        width: 70%;
+        margin-top: -28rem;
+        margin-left: 75%;
+    }
+    .sec9div3{
+        height: 130vh;
+        width: 30%;
+        padding-left: 1rem;
+        padding-top: 25rem;
+        letter-spacing: 0.1rem;
+    }
+    .sec9div3 h1{
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        padding-bottom: 0.5rem;
+    }
+    .sec9div3 p{
+        font-size: 0.9rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        padding-bottom: 1rem;
+    }
+    .sec9div3 button{
+        height: 3rem;
+        width: 11rem;
+        letter-spacing: 0.1rem;
+        border: none;
+        color: black;
+        background-color: #EFECE6;
+        font-size: 0.9rem;
+        cursor: pointer;
+    }
+    .sec9div3 button:hover{
+        background-color: black;
+        color: white;
+    }
+
+    footer{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+        background-color: #F6F6F4;
+    }
+    .footerdiv1{
+        height: 80vh;
+        width: 48.5%;
+        background-color: #EFECE6;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 5%;
+    }
+    .footerdiv1 h4{
+        font-size: 0.9rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        letter-spacing: 0.1rem;
+        padding-bottom: 0.5rem;
+    }
+        .footerdiv1 p{
+        font-size: 1.5rem;
+        font-weight: 100;
+        padding-bottom: 1rem;
+        
+    }
+    .footerdiv1 input{
+        height: 3rem;
+        width: 70%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid black;
+        background-color: #EFECE6;
+    }
+    .footerdiv1 button{
+        height: 3rem;
+        width: 20%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid black;
+        background-color: #EFECE6;
+        cursor: pointer;
+    }
+    .footerdiv1img{
+        height: 20vh;
+        width: 95%;
+        background-image: url(footerimg.webp);
+        background-size: 100% 100%;
+        background-position: center;
+        margin-top: 2rem;
+    }
+    
+    .footerdiv2{
+        height: 80vh;
+        width: 48.9%;
+        background-color: #E4E1DC;
+        display: flex;
+        align-items: center;
+    }
+    .footerdiv2 div{
+        height: 60vh;
+        width: 35%;
+        display: flex;
+        justify-content: center;
+    }
+    .footerdiv2 ul{
+        list-style-type: none;
+    }
+    .footerdiv2 li{
+        line-height: 2.7;
+        letter-spacing: 0.1rem;
+        font-size: 0.7rem;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+    
+    .copyrightdiv{
+        height: 8vh;
+        width: 100%;
+        background-color: #F6F6F4;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .copyrightdiv ul{
+        list-style-type: none;
+        display: flex;
+        gap: 1rem;
+        font-size: 0.5rem;
+        letter-spacing: 0.1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .copyrightdiv p{
+        font-size: 0.5rem;
+        letter-spacing: 0.1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
