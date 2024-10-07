@@ -22,6 +22,9 @@ header {
 .headermenu {
     display: none;
 }
+.headermenuoptions{
+    display: none;
+}
 
 .shopbag {
     display: none;
@@ -1294,6 +1297,26 @@ footer{
     .headermenu {
         display: block;
         font-size: 1.5rem;
+    }
+
+    /* //////////////////////////////////   small screen menu slider options with dom.js */
+    .headermenuoptions{
+        display: block;
+        height: 20rem;
+        width: 12rem;
+        background-color: #bbad94;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 16%;
+        position: absolute;
+        top: 0;
+        left: -60%;
+    }
+    .headermenuoptions li{
+        padding-bottom: 2rem;
+        font-size: 1.3rem;
     }
 
     .shopbag {
